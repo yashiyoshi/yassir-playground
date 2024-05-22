@@ -9,7 +9,7 @@ export default function Home() {
         <p className="text-4xl font-bold my-2">
           Welcome to Yassir's Playground
         </p>
-        <p className=" italic my-2">Choose from one of my games below</p>
+        <p className=" italic my-2">Choose from one of our games from below</p>
       </div>
       <div className="grid md:grid-cols-3 grid-row-1 justify-items-center">
         <GameCard
@@ -22,7 +22,7 @@ export default function Home() {
           title={"Worduko"}
           description={"A simple game"}
           content={"This is a simple game"}
-          link={"/worduko/play/"}
+          link={"/getthatnumber/play/"}
 
         />
         <GameCard
@@ -30,6 +30,7 @@ export default function Home() {
           description={"A simple game"}
           content={"This is a simple game"}
           link={"/getthatnumber/play/"}
+
           />
       </div>
     </div>
