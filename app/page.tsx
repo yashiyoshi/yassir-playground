@@ -7,7 +7,7 @@ export default function Home() {
       <NavBar />
       <div className="flex flex-col text-center my-16">
         <p className="text-4xl font-bold my-2">
-          Welcome to Yassir's Playground
+          Welcome to Yassir{`'`}s Playground 🎉
         </p>
         <p className=" italic my-2">Choose from one of our games from below</p>
       </div>
